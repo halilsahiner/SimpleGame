@@ -14,8 +14,9 @@ public class Sword extends Weapon{
 
 	@Override
 	public String toString() {
-		return "Sword [getDamageAmount()=" + this.getDamageAmount() + ", getItemPrice()=" + getItemPrice()
-				+ ", getItemWeight()=" + getItemWeight() + "]";
+		return "\nWeapon type: " + this.getClass().getSimpleName() + "\nPrice: " 
+	+ this.getItemPrice() + "\nWeight " + this.getItemWeight()
+		+ "\nDamage " +this.getDamageAmount() + "\n";
 	}
 	
 	

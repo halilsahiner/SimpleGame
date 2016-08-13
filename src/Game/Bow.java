@@ -39,8 +39,9 @@ package Game;
 
 		@Override
 		public String toString() {
-			return "Bow [numArrows=" + numArrows + ", getDamageAmount()=" + getDamageAmount() + ", getItemPrice()="
-					+ getItemPrice() + ", getItemWeight()=" + getItemWeight() + "]";
+			return "\nWeapon type: " + this.getClass().getSimpleName() + "\nNum of arrows: " 
+		+this.getNumArrows()+ " \nPice " +this.getItemPrice() + "\nWeight " + this.getItemWeight()
+			+ "\nDamage " +this.getDamageAmount();
 		}
 		
 	}
